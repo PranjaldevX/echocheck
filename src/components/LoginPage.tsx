@@ -132,8 +132,16 @@ export const LoginPage = ({ onLogin }: LoginPageProps) => {
             </TabsContent>
           </Tabs>
 
-          <div className="mt-6 text-center text-sm text-muted-foreground">
-            Secure • Location-based • Real-time
+          <div className="mt-6 text-center">
+            <p className="text-sm text-muted-foreground mb-3">
+              Secure • Location-based • Real-time
+            </p>
+            <p className="text-sm text-muted-foreground">
+              Don't have an account?{" "}
+              <button className="text-primary hover:underline font-medium">
+                Register here
+              </button>
+            </p>
           </div>
         </CardContent>
       </Card>
