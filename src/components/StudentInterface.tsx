@@ -185,14 +185,14 @@ export const StudentInterface = ({ onLogout }: StudentInterfaceProps) => {
               Device Information
             </CardTitle>
             <CardDescription>
-              Secure device identification for attendance verification
+              Secure device identification using UUID for attendance verification
             </CardDescription>
           </CardHeader>
           <CardContent>
             <div className="space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
-                  <Label className="text-sm font-medium text-muted-foreground">Device ID (Hashed)</Label>
+                  <Label className="text-sm font-medium text-muted-foreground">Device UUID (Hashed)</Label>
                   <p className="font-mono text-sm">{deviceInfo.id}</p>
                 </div>
                 <div>

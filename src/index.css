@@ -7,8 +7,8 @@
 @layer base {
   :root {
     /* Core Brand Colors */
-    --background: 245 247 250;
-    --foreground: 210 11% 20%;
+    --background: 249 250 251;
+    --foreground: 51 51 51;
 
     --card: 0 0% 100%;
     --card-foreground: 224 71% 4%;
@@ -16,10 +16,10 @@
     --popover: 0 0% 100%;
     --popover-foreground: 224 71% 4%;
 
-    /* Primary Brand - Electric Blue for tech/ultrasonic feel */
-    --primary: 212 100% 50%;
-    --primary-foreground: 0 0% 100%;
-    --primary-glow: 212 100% 70%;
+    /* Primary Brand - Bootstrap Blue */
+    --primary: 210 78% 46%;
+    --primary-foreground: 255 255 255;
+    --primary-glow: 210 78% 60%;
 
     /* Success - Green for attendance verification */
     --success: 142 76% 36%;
